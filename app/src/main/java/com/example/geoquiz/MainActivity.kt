@@ -92,7 +92,6 @@ class MainActivity : AppCompatActivity() {
     private fun updateQuestion() {
         val questionTextResId = quizViewModel.currentQuestionText
         binding.questionTextView.setText(questionTextResId)
-
     }
 
     private fun checkAnswer(userAnswer: Boolean) {
